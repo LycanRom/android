@@ -10,6 +10,10 @@
            fetch="git://github.com/LycanRom"
            revision="mm" />
 
+  <remote  name="cm"
+           fetch="git://github.com/CyanogenMod"
+           revision="cm-13.0" />
+
   <remote  name="ld"
            fetch="git://github.com/Lycan-Devices"
            revision="mm" />
