@@ -35,7 +35,7 @@
            sync-j="4" />
 
 <!-- BEGIN CYANOGENMOD -->
-  <project path="build" name="android_build" groups="pdk" remote="lr" >
+  <project path="build" name="android_build" groups="pdk" git push -u origin master" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="android" name="android" remote="lr" />
@@ -62,7 +62,7 @@
   <project path="external/ant-wireless/ant_service" name="CyanogenMod/android_external_ant-wireless_ant_service" />
   <project path="external/ant-wireless/antradio-library" name="CyanogenMod/android_external_ant-wireless_antradio-library" />
   <project path="external/apache-http" name="CyanogenMod/android_external_apache-http" groups="pdk" />
-  <project path="external/bash" name="CyanogenMod/android_external_bash" />
+  <project path="external/bash" name="android_external_bash" remote="lr" />
   <project path="external/boringssl" name="CyanogenMod/android_external_boringssl" groups="pdk" />
   <project path="external/bouncycastle" name="CyanogenMod/android_external_bouncycastle" groups="pdk" />
   <project path="external/brctl" name="CyanogenMod/android_external_brctl" />
